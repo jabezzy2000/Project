@@ -51,31 +51,28 @@ WIREFRAMES:
 ![](https://i.imgur.com/MIn15jk.jpg)
 
 
+**USER CLASS**
 
-
-
-
-
-Data Model
-PeerErrand - User Class
-ObjectID - String - unique ID for the user
-ProfileImage- File - profile image of current user
-TaskerRating - Number - rating of User who posts task
-FreeLanceRating - Number - rating of User who completes tasks
-
-Request Class
-ObjectID - Pointer - pointer to the User
-RequestsDes - String - Request description
-RequestsSum - String - Requests summary
-CreatedAt - DateTime - date when the request was created
-CompletedAt - DateTime - date when the request was completed
-Completed - Boolean - whether or not the request has been completed
-ToDo - array - list of things to do to complete the request
-
-
-
-
-
+   | Property      | Type     | Description |
+   | ------------- | -------- | ------------|
+   | objectId      | String   | unique id for the user post (default field) |
+   | ProfileImage  | File     | profile image of current user |
+   | TaskerRating  | Number   | rating of User who posts tasks |
+   | FreeLanceRating| Number  | rating of User who completes tasks |
+   
+   
+   **REQUEST CLASS**
+   
+      | Property      | Type     | Description |
+   | ------------- | -------- | ------------|
+   | objectId      | Pointer  | pointer to the User |
+   | RequestsTitle | String   | Request's title |
+   | RequestsDes   | String   | Request's description |
+   | CreatedAt     | DateTime | Date when the request was created |
+   | CompletedAt   | DateTime | number of comments that has been posted to an image |
+   | Completed     | Boolean  | whether or not the request has been completed |
+   | ToDo          | array    | list of things to do to complete the request |
+  
 
 Possible Stretch features:
 - User profile pictures ( on timeline and in detail activity)
