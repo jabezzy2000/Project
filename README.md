@@ -63,7 +63,7 @@ WIREFRAMES:
    
    **REQUEST CLASS**
    
-      | Property      | Type     | Description |
+   | Property      | Type     | Description |
    | ------------- | -------- | ------------|
    | objectId      | Pointer  | pointer to the User |
    | RequestsTitle | String   | Request's title |
