@@ -49,3 +49,52 @@ WIREFRAMES:
 ![](https://i.imgur.com/PDWYnbF.jpg)
 ![](https://i.imgur.com/bcFepF9.jpg)
 ![](https://i.imgur.com/MIn15jk.jpg)
+
+
+
+
+
+
+
+Data Model
+PeerErrand - User Class
+ObjectID - String - unique ID for the user
+ProfileImage- File - profile image of current user
+TaskerRating - Number - rating of User who posts task
+FreeLanceRating - Number - rating of User who completes tasks
+
+Request Class
+ObjectID - Pointer - pointer to the User
+RequestsDes - String - Request description
+RequestsSum - String - Requests summary
+CreatedAt - DateTime - date when the request was created
+CompletedAt - DateTime - date when the request was completed
+Completed - Boolean - whether or not the request has been completed
+ToDo - array - list of things to do to complete the request
+
+
+
+
+
+
+Possible Stretch features:
+- User profile pictures ( on timeline and in detail activity)
+- Implementing a map feature
+- Using the camera app to take a picture after task is completed
+- Chat app integrated for users to hold a conversation ( very improbable...maybe after MU)
+
+
+
+**_NETWORKING_**
+- Home/Timeline Screen
+-  * (READ/GET) Query all posts where boolean completed is false
+-  * ( Create/POST) Create and post a new Task
+-  * (Delete) Delete an existing task
+-  *
+-  
+
+**_EXISTING API ENDPOINTS_**
+An API of Google Maps
+
+**_PLANNED SDK USAGES_**
+- Camera Implementation
