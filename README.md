@@ -92,7 +92,8 @@ Visuals and interactions: 1. Gesture: Implement pinch to zoom in and out of maps
                           3. Implements basic fade in/out transitions
                           4. Might use GIF as visual eye catcher on splash screen
                           
-Milestones: 1. Develop Sign up/log in page. Integrate app with parse and allow for successful log ins. Develop home page/fragment with timeline and map toggle, add task button. Develop profile page
-            2. Successfully implement map page ( from toggle) ande in progress page( logic: If User== currentUser and taskcompleted = no, display )
-            3. Implement search feature and filters in search fragment. Implement drawable animations where possible and implement pinch feature for map
+Milestones: 
+1. Develop Sign up/log in page. Integrate app with parse and allow for successful log ins. Develop home page/fragment with timeline and map toggle, add task button. Develop profile page
+2. Successfully implement map page ( from toggle) ande in progress page( logic: If User== currentUser and taskcompleted = no, display )
+3. Implement search feature and filters in search fragment. Implement drawable animations where possible and implement pinch feature for map
             
